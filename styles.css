@@ -1,0 +1,114 @@
+/*Custom Fonts*/
+@font-face {
+    font-family: "monogram";
+    src: url("./monogram-extended.ttf") format("truetype");
+}
+@font-face {
+    font-family: "monogram";
+    src: url("./monogram-extended-italic.ttf") format("truetype");
+    font-style: italic;
+}
+
+/*Headings*/
+h1 {
+    font-family: "monogram";
+    font-size: 96px;
+    font-weight: bold;
+}
+h2 {
+    font-family: "monogram";
+    font-size: 64px;
+    font-weight: bold;
+}
+h3 {
+    font-family: "monogram";
+    font-size: 64px;
+    font-style: italic;
+    text-decoration: underline;
+}
+h4 {
+    font-family: "monogram";
+    font-size: 48px;
+    font-weight: bold;
+}
+h5 {
+    font-family: "monogram";
+    font-size: 48px;
+    font-style: italic;
+    text-decoration: underline;
+}
+h6 {
+    font-family: "monogram";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*Paragraph*/
+p{
+    font-family: "monogram";
+    font-size: 32px;
+}
+
+/*Colors*/
+.white {
+    color: #ffffff;
+}
+.light-blue {
+    color: #6772a9;
+}
+.dark-blue {
+    color: #3a3277;
+}
+.black {
+    color: #000000;
+}
+
+/*Background Colors*/
+.bg-white {
+    background-color: #ffffff;
+}
+.bg-light-blue {
+    background-color: #6772a9;
+}
+.bg-dark-blue {
+    background-color: #3a3277;
+}
+.bg-black {
+    background-color: #000000;
+}
+
+/*Elements*/
+html {
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #3a3277;
+    text-align: center;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto;
+    text-align: left;
+}
+footer p {
+    font-size: 16px;
+}
+
+footer a {
+    font-size: 16px;
+}
+
+/*Links*/
+a {
+    font-family: "monogram";
+    font-size: 32px;
+    color: #ffffff
+}
+
+/*Classes*/
+.links div{
+    border: #6772a9 double solid 1px;
+}
